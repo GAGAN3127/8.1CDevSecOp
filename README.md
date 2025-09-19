@@ -1,5 +1,3 @@
-# 8.1CDevSecOp
-Part1 task 1
 pipeline {
   agent any
   options { ansiColor('xterm'); timestamps() }
