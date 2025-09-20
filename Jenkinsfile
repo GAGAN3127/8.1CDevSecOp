@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Security Scan') {
             steps {
-                echo 'Running security scan'
+                echo 'Running security scans'
                 // Add your security scan logic (e.g., Snyk or npm audit)
             }
         }
