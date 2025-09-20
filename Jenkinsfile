@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the projects'
+                echo 'Building the project'
                 // Your build tool logic (e.g., Maven, Gradle, etc.)
             }
         }
