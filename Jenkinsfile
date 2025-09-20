@@ -10,7 +10,7 @@ pipeline {
                 // Your build tool logic (e.g., Maven, Gradle, etc.)
             }
         }
-        stage('Unit & Integration Tests') {
+        stage('Unit & Integration Test') {
             steps {
                 echo 'Running Unit and Integration Tests'
                 // Your test commands (e.g., JUnit or other test frameworks)
