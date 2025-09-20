@@ -30,7 +30,7 @@ pipeline {
         }
         stage('Deploy to Staging') {
             steps {
-                echo 'Deploying to staging environment'
+                echo 'Deploying to staging environments'
                 // Your deploy script or commands (e.g., Ansible or SSH commands)
             }
         }
