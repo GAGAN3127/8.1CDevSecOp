@@ -9,7 +9,7 @@ pipeline {
     stage('Security Scan') { steps { echo 'Task: dependency scan | Tool: npm audit or Snyk' } }
     stage('Deploy to Staging') { steps { echo 'Task: deploy artefact | Tool: Ansible/SSH' } }
     stage('Integration Tests on Staging') { steps { echo 'Task: smoke/API tests | Tool: Newman/Cypress' } }
-    stage('Deploy to Productions') { steps { echo 'Task: rolling deploy | Tool: Ansible/Helm' } }
+    stage('Deploy to Productions h') { steps { echo 'Task: rolling deploy | Tool: Ansible/Helm' } }
   }
 }
 s
